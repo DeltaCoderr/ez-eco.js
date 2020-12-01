@@ -45,7 +45,7 @@ client.on('message', async message => {
 })
 ```
 ## Why Ez-ECO
-_Fast and use to use
-_Note : This Package Is Using [Quick.db](https://www.npmjs.com/package/quick.db) (Database)_
+- Fast and use to use
+- Note : This Package Is Using [Quick.db](https://www.npmjs.com/package/quick.db) (Database)_
 - This Package Is Made With 💖 By ! Darkboy🍭#9966
 
