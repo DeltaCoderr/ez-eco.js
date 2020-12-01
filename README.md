@@ -35,7 +35,7 @@ client.on('message', async message => {
 })
 ```
 
-- __ Earn Money__
+- __Earn Money__
 ```js
 client.on('message', async message => {
   if(message.content.toLowerCase().startsWith('work')) {
