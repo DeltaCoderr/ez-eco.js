@@ -20,7 +20,8 @@ client.on('message', async message => {
     let data = await ezeco.wallet(message.guild.id, message.author.id, user.username);
    message.channel.send(data.money)
   }
-})```
+})
+```
 - __Transfer Amoney to user__
 ```js
 client.on('message', async message => {
@@ -31,7 +32,9 @@ client.on('message', async message => {
     let data = await ezeco.pay(message.guild.id, user.id, amount[2], message.author.id)
       message.channel.send(data.money)
   }
-})```
+})
+```
+
 - __ Earn Money__
 ```js
 client.on('message', async message => {
