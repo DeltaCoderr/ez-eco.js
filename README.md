@@ -1,10 +1,10 @@
 # ez-eco.js
-- __Made For Discord.js Discord bots__
+- __Made For Discord bots which use Discord.js__
 - _**Make Sure To Install [quick.db](https://www.npmjs.com/package/quick.db) Before Using Package!**_
 - Report Bugs, Errors, Problems In [Support Server](https://discord.gg/devs)
 
 ## Usage 📕
-- __Get User Bal__
+- __Get User's Balance__
  ```js
 const Discord = require('discord.js') // npm i discord.js
 const client = new Discord.Client();
@@ -22,7 +22,7 @@ client.on('message', async message => {
   }
 })
 ```
-- __Transfer Amoney to user__
+- __Transfer money to user__
 ```js
 client.on('message', async message => {
   if(message.content.toLowerCase().startsWith('pay')) {
@@ -45,7 +45,7 @@ client.on('message', async message => {
 })
 ```
 ## Why Ez-ECO
-- Fast and use to use
-- Note : This Package Is Using [Quick.db](https://www.npmjs.com/package/quick.db) (Database)_
+- Fast and easy to use
+- Note : This Package Is Using [Quick.db](https://www.npmjs.com/package/quick.db) (Database)
 - This Package Is Made With 💖 By ! Darkboy🍭#9966
 
